@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:markdown="clr-namespace:Syncfusion.Maui.MarkdownViewer;assembly=Syncfusion.Maui.MarkdownViewer"
+             x:Class="MarkdownViewerSample.MainPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <x:String x:Key="CustomStyle">
+                body {
+            background: #F5F7FA;
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 16px;
+            color: #2E2E2E;
+            line-height: 3.7;
+        }
+
+        h1 {
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 38px;
+            letter-spacing: 0.5px;
+            color: #1E3A8A;
+            margin-bottom: 16px;
+        }
+
+        h2 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: 0.4px;
+            color: #3B5BAA;
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
+
+        h3 {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: 0.3px;
+            color: #6C83C1;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+            </x:String>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <markdown:SfMarkdownViewer>
+        <markdown:SfMarkdownViewer.Settings>
+            <markdown:MarkdownStyleSettings CssStyleRules="{StaticResource CustomStyle}" />
+        </markdown:SfMarkdownViewer.Settings>
+        <markdown:SfMarkdownViewer.Source>
+            <x:String>
+                <![CDATA[
+# What is the Markdown Viewer?  
+The Markdown Viewer is a UI control in .NET MAUI that allows developers to render Markdown content with full formatting support.
+
+## Header 2  
+Used to define major sections within your Markdown content.
+
+### Table  
+| Item | Description |
+|------|-------------|
+| A    | Sample row  |
+            ]]>
+            </x:String>
+        </markdown:SfMarkdownViewer.Source>
+    </markdown:SfMarkdownViewer>
+</ContentPage>
