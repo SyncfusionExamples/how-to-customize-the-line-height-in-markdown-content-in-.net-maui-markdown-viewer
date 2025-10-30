@@ -14,7 +14,7 @@ Follow the step-by-step guidance to fine-tune line height using styles, and plat
 
 **Output:**
 
-![Customized_LineHeight_Demo]()
+![Customized_LineHeight_Demo](https://github.com/user-attachments/assets/1b286962-a6f6-444c-be54-d2b1c9742c75)
 
 ## Troubleshooting
 
