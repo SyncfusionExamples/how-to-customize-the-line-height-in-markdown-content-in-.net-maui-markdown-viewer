@@ -6,7 +6,7 @@ By default, the [MarkdownViewer](https://help.syncfusion.com/cr/maui/Syncfusion.
 
 Follow the step-by-step guidance to fine-tune line height using styles, and platform-specific tweaks ensuring consistent layout and improved text legibility across devices.
 
-**Step 1:** Check out this [User Guide documentation]((https://help.syncfusion.com/maui/markdownviewer/gettingstarted)) to add and initialize [MarkdownViewer](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.MarkdownViewer.SfMarkdownViewer.html) control. Use the Source property to load markdown content as a string or from a file path.
+**Step 1:** Check out this [User Guide documentation](https://help.syncfusion.com/maui/markdownviewer/gettingstarted) to add and initialize [MarkdownViewer](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.MarkdownViewer.SfMarkdownViewer.html) control. Use the Source property to load markdown content as a string or from a file path.
 
 **Step 2:** By default, the .NET MAUI [MarkdownViewer](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.MarkdownViewer.SfMarkdownViewer.html) applies a standard line height based on its internal rendering engine and platform-specific text layout. This default spacing is designed to ensure consistent readability across devices, but it may not align with all design requirements especially when integrating Markdown content into custom layouts or branded UI themes.
 
@@ -22,4 +22,4 @@ Follow the step-by-step guidance to fine-tune line height using styles, and plat
 
 If you are facing a "Path too long" exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
 
-Refer to the KB article on [how to customize the line height in markdown content in .NET MAUI Markdown Viewer](https://support.syncfusion.com/agent/kb/21718) for better understanding along with relevant code snippets.
+Refer to the KB article on [how to customize the line height in markdown content in .NET MAUI Markdown Viewer](https://support.syncfusion.com/kb/article/21718/how-to-customize-the-line-height-in-markdown-content-in-net-maui-markdown-viewer) for better understanding along with relevant code snippets.
